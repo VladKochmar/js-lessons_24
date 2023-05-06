@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ukr">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="../css/style.css">
+   <title>Регулярні вирази</title>
+</head>
+
+<body>
+   <main class="page">
+      <section class="block">
+         <div class="block__container">
+            <div class="block__tasks">
+               <div class="block__task task">
+                  <h2 class="task__title">Задача 1</h2>
+                  <p class="task__text">Дано масив рядкових представлень чисел (тобто масив чисел у лапках (string). З використанням перевірки за допомогою регулярних виразів і груп підрахувати кількість тих, у яких перша і остання літери однакові.</p>
+                  <div id="task1" class="task__result"></div>
+               </div>
+               <div class="block__task task">
+                  <h2 class="task__title">Задача 2</h2>
+                  <p class="task__text">Замінити номер розділяючи послідовності цифр дефісом згідно з форматом 0504546626 🡪 +380-50-45-466-26</p>
+                  <input id="userPhoneNumber" type="text" class="input">
+               </div>
+               <div class="block__task task">
+                  <h2 class="task__title">Задача 3</h2>
+                  <p class="task__text">Після кожного значення року після 2000 року додати «р.»</p>
+                  <q>Я народився 2001, а в школі пішов 2007» 🡪 «Я народився 2001р., а в школі пішов 2007р.</q>
+                  <input id="strWithYears" type="text" class="input">
+               </div>
+               <div class="block__task task">
+                  <h2 class="task__title">Задача 4</h2>
+                  <p class="task__text">Вводиться велике число. Кожні 3 розряди відділяти пробілом. 7457896524 🡪 7 457 896 524</p>
+                  <input id="bigNumber" type="text" class="input">
+               </div>
+            </div>
+         </div>
+      </section>
+   </main>
+   <script src="../js/regular-expressions.js"></script>
+</body>
+
+</html>
